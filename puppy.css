@@ -1,0 +1,26 @@
+body{
+    background-color: green;
+}
+header{
+    text-align: center;
+    /* text-decoration: underline; */
+    color: gold;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    text-shadow: 2px 2px gray;
+}
+#name-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+p{
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+}
+img{
+    padding-left: 25%;
+    
+}

@@ -1,0 +1,19 @@
+body{
+    background-color: green;
+}
+header{
+    text-align: center;
+    /* text-decoration: underline; */
+    color: gold;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    text-shadow: 2px 2px gray;
+}
+#pup-description-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: brown;
+    font-size: x-large;
+    border: 2px solid black;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+}
