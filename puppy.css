@@ -24,3 +24,8 @@ img{
     padding-left: 25%;
     
 }
+.playerPhoto{
+    height: 6rem;
+    width: 6rem;
+    padding-right: 30%;
+}

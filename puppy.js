@@ -23,11 +23,12 @@ async function renderPuppyData(){
   
       let newPuppyElement = document.createElement('p')
       newPuppyElement.innerText = `Name: ${justPuppies.name} ID: ${justPuppies.id}` 
-      
+      console.log(justPuppies)
       
       newPuppyElement.style.border = "2px solid black";
       const img = document.createElement('img')
-      img.src = `${justPuppies.imageURL}`
+      img.classList.add('playerPhoto')
+      img.src = `${justPuppies.imageUrl}`
 
       let newButton = document.createElement("button")
         newButton.innerText = "Player Bio"
